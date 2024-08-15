@@ -4,7 +4,7 @@ import { DocViewerComponent } from './doc-viewer.component';
 
 describe('DocViewerComponent', () => {
   let component: DocViewerComponent;
-  let fixture: ComponentFixture<DocViewerComponent>;
+  let fixture: ComponentFixture<DocViewerComponent>;``
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
