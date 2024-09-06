@@ -27,7 +27,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+               "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "dev":{
@@ -138,7 +140,7 @@
               "browserTarget": "document-viewer:build:dev"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "qa"
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
